@@ -1,0 +1,52 @@
+#CP01 - El usuario puede crear 1 cuenta
+
+Given la API esta disponible en https://practice.expandtesting.com/notes con
+	Headers:
+		Content-Type: application/x-www-form-urlencoded
+		Accept: application/json
+	Parameters:
+		name
+		email
+		password 
+
+When realize la peticion POST a /api/users/register con 
+Then el codigo de respuesta debe ser 201
+And la respuesta debe contener el campo "message = User account created successfully"
+And la respuesta debe contener el campo "success = true"
+And la respuesta debe contener los campos name, email, id
+
+
+
+#CP02 - El usuario puede hacer login con email y password valido
+Given la API esta disponible en https://practice.expandtesting.com/notes con
+	Parameters:
+		email:alana@email.com
+		password:1266964646
+When realize la peticion POST a /api/users/login
+Then el codigo de respuesta debe ser 200
+And la respuesta debe contener el campo message = "Login successful"
+And la respuesta debe contener los campos name,correo
+And la respuesta debe contener el campo token
+
+
+
+#CP03 - El usuario no puede hacer login con email invalido y password valido
+Given la API esta disponible en https://practice.expandtesting.com/notes con
+	Parameters:
+		email:invalide@email.com
+		password:1266964646
+When realize la peticion POST a /api/users/login
+Then el codigo de respuesta debe ser 401
+And la respuesta debe contener el campo message = "Incorrect email address or password"
+And la respuesta debe contener el campo success = "false"
+
+
+#CP04 - El usuario no puede hacer login con email valido y password invalido
+Given la API esta disponible en https://practice.expandtesting.com/notes con
+	Parameters:
+		email:alana@email.com
+		password:12
+When realize la peticion POST a /api/users/login
+Then el codigo de respuesta debe ser 401
+And la respuesta debe contener el campo message = "Incorrect email address or password"
+And la respuesta debe contener el campo success = "false"
