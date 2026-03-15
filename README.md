@@ -2,15 +2,25 @@
 
 Este repositorio contiene proyectos de automatizacion de pruebas API donde desarrolle diferentes estrategias de testing, herramientas y frameworks durante el curso QA Pro Level de QAX
 
-## 🎯 1. Propósito: ¿Por Qué Usar esta Plantilla?
+## 🎯 Tecnologias utilizadas
 
-- **Organización Total:** Tendrás un lugar central y ordenado para cada una de tus entregas del programa (Stages), evitando archivos sueltos o desordenados. 
-- **Consistencia Profesional:** La estructura es la misma para proyectos de API, Web o Mobile, lo que demuestra que sabes mantener un estándar de trabajo.
-- **Portafolio de Impacto:** En lugar de solo decir que sabes automatizar, podrás mostrar tu código, tu lógica y tu forma de trabajar directamente desde tu perfil de GitHub. 
+- **Lenguaje:** Java
+- **Frameworks de automatizacio:n** Rest Assured
+- **Gestion de Pruebas:** Cucumber
+- **Herramientas adicionales:** Postman,Git, Maven 
+
+## 🎯 Proyectos
+Stage 1: Fundamentos de API Testing con Rest Assured
+- **Challenge 1:** Automatizacion de Gestion de Usuarios en Postman 
+- **Challenge 2:** Automatizacion de Gestion de Usuarios en Rest Assured 
+- **Mission:** Automatizacion de Pruebas para la API Los Simpson 
+
+Stage 2: Requests y Validaciones 
+- **Challenge 1 y 2:** Automatizacion de pruebas para la API JSONPlaceholder y BookStore utilizando Rest Assured
+- **Mission:** Automatizacion de pruebas para REST_API  
+
 
 ## 🧱 2. Estructura del Repositorio: ¿Dónde Va Cada Cosa? 
-
-Esta es la organización de carpeta. Piensa en ella como un archivador digital perfectamente etiquetado.
 
 ```
 .
