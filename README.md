@@ -1,11 +1,6 @@
+# Portafolio de Automatización de Pruebas - Jhoselin Luizaga
 
-# Proyecto Modelo para realizar las entregas 
-
-
-# Guía Detallada: Tu Portafolio de Automatización Profesional 
-
-Este documento es tu manual para utilizar la plantilla de repositorio de QAX. 
-El objetivo es que construyas un portafolio de proyectos de automatización de API que sea ordenado, profesional y que demuestre tus capacidades técnicas a futuros empleadores. 
+Este repositorio contiene proyectos de automatizacion de pruebas API donde desarrolle diferentes estrategias de testing, herramientas y frameworks durante el curso QA Pro Level de QAX
 
 ## 🎯 1. Propósito: ¿Por Qué Usar esta Plantilla?
 
