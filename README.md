@@ -1,4 +1,4 @@
-# Portafolio de Automatización de Pruebas - Jhoselin Luizaga
+# API Test Automation Portfolio - Jhoselin Luizaga
 
 Este repositorio contiene proyectos de automatizacion de pruebas API donde desarrolle diferentes estrategias de testing, herramientas y frameworks durante el curso QA Pro Level de QAX
 
