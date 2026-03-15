@@ -1,10 +1,6 @@
 
 # Proyecto Modelo para realizar las entregas 
 
-![QAX](https://img.shields.io/badge/QAX-Mentorias-orange?style=for-the-badge&logo=github)
-![QA Pro Level](https://img.shields.io/badge/QA-ProLevel-blueviolet?style=for-the-badge&logo=target)
-
-
 
 # Guía Detallada: Tu Portafolio de Automatización Profesional 
 
