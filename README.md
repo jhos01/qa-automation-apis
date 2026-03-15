@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="assets/qax-logo.png" alt="QAX Logo"/>
-</p>
 
 # Proyecto Modelo para realizar las entregas 
 
