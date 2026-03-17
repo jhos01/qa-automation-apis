@@ -1,7 +1,7 @@
 # Quick Task
 
 ## Implementación de Fundamentos de Java  y Ejecución de Pruebas API en Postman
-Aplicar algunos conceptos básicos de Java y validar APIs mediante la ejecución de colecciones en Postman
+Aplicar conceptos esenciales de Java y validar APIs mediante la ejecución de requests en Postman
 
 ## Criterios de aceptacion:
 - Coleccion correctamente importada en Postman
