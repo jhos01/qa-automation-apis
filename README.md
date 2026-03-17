@@ -24,9 +24,7 @@ Stage 2: Requests y Validaciones
 
 ```
 .
-├── .gitignore   <-- Archivo para ignorar archivos que no deben subirse.
 ├── README.md    <-- ESTE ES EL MÁS IMPORTANTE: La portada de tu portafolio.
-├── assets/      <-- Carpeta para guardar imágenes o recursos que uses en tu documentación.
 ├── Stage_1/     <-- Carpeta para todo el trabajo del Módulo 1.
 │   ├── Challenge/
 │   │   └── README.md
