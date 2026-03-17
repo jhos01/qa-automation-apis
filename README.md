@@ -43,5 +43,6 @@ Stage 2: Requests y Validaciones
 
 ### Contacto:
 - **LinkedIn:** [www.linkedin.com/in/jhoselin-luizaga]
-- - **Email:** jluizagarodriguez@gmail.com 
+- **Email:** jluizagarodriguez@gmail.com
+- **Github: Jhoselin Luizaga (jhos01)
 
