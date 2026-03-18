@@ -5,7 +5,7 @@
 ## Implementacion de pruebas automatizadas para la Gestion de Usuarios de Notes API usando Rest Assured con Cucumber
  - **Objetivo / Historia de usuario**
 
-La carpeta Challenge 2 contiene los Challenges 1 & 2 los cuales los cuales utlizaron la API publica "Notes API" para generar casos de prueba de Gestion de Usuarios automatizados a traves de Rest Assured, Maven,y Cucumber para Java.
+La carpeta Challenge 2 contiene los Challenges 1 & 2 los cuales utlizaron la API publica "Notes API" para generar casos de prueba de Gestion de Usuarios automatizados a traves de Rest Assured, Maven,y Cucumber para Java.
  Challenge 1: poder registrar un usuario y hacer login
  Challenge 2:
 
