@@ -1,0 +1,91 @@
+{
+	"info": {
+		"_postman_id": "7db9f94a-455a-4fca-ba10-e59e208c590b",
+		"name": "Api Testing - QAXPERT - TomiLissa",
+		"description": "Colección para probar creación de posts, listado de usuarios y comentarios en JSONPlaceholder",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "8621497"
+	},
+	"item": [
+		{
+			"name": "CP01 - Crear nuevo post",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"title\": \"Mi primer post QAx\",\n  \"body\": \"Contenido de prueba Tomas\",\n  \"userId\": 1\n}"
+				},
+				"url": "{{Base_url}}/posts"
+			},
+			"response": []
+		},
+		{
+			"name": "CP02 - Listar usuarios",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{Base_url}}/users"
+			},
+			"response": []
+		},
+		{
+			"name": "CP03 - Listar comentarios de un post",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Base_url}}/comments?postId=2",
+					"host": [
+						"{{Base_url}}"
+					],
+					"path": [
+						"comments"
+					],
+					"query": [
+						{
+							"key": "postId",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "Base_url",
+			"value": ""
+		}
+	]
+}
