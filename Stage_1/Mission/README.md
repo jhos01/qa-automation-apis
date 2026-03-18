@@ -5,7 +5,11 @@
 ## Implementacion de pruebas automatizadas para consultar la API "Los Simpson" 
  - **Objetivo / Historia de usuario**
 
-En este proyecto se utlizo la API publica "Los Simpson" y se generaron pruebas automatizadas para consultar informacion de personajes, locaciones y episodios a traves de Rest Assured, Maven,y Cucumber para Java.
+Historia de usuario: Exponer listado y detalle de personajes de The Simpsons con paginación
+
+- Como consumidor externo de la API (aplicaciones cliente y servicios internos)
+- Quiero obtener un listado paginado de personajes y consultar el detalle por id
+- Para mostrar información consistente y navegable en mis aplicaciones y reutilizarla en otros servicios.
 
 
 ## ✅ Casos de Prueba
