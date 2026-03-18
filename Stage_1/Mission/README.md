@@ -16,35 +16,20 @@ Historia de usuario: Exponer listado y detalle de personajes de The Simpsons con
 
    CP01 - El usuario puede ver personajes listados por pagina de manera satisfactoria
    
-   - Given la API esta disponible en https://thesimpsonsapi.com/api con
-     
-    	  Query Parameters:
-    	  Page:{n}
-     
+   - Given la API esta disponible en https://thesimpsonsapi.com/api con 
    - When realice la peticion GET a /characters
    - Then el codigo de respuesta debe ser 200 
    
-   
    CP02 - El usuario pueder ver los personajes 1-20 si la pagina es 1 
+   
    - Given la API esta disponible en https://thesimpsonsapi.com/api con
-   
-    	Query Parameters:
-   
-    		Page:{1}
-   
    - When realice la peticion GET a characters
    - Then el tamaho del array results es 20
    - And el codigo de respuesta debe ser 200
    
-   
    CP03 - El usuario puede ver 20 personajes por cualquier pagina 
    
    - Given la API esta disponible en https://thesimpsonsapi.com/api con 
-   
-    	Query Parameters:
-   
-    		Page:{10}
-   
    - When realice la peticion GET a /characters
    - Then el tamaho del array results es 20
    - And el codigo de respuesta debe ser 200
@@ -52,29 +37,15 @@ Historia de usuario: Exponer listado y detalle de personajes de The Simpsons con
    CP04 - El usuario puede ver count,next,prev,pages, y results para personajes listados por paginacion
    
    - Given la API esta disponible en https://thesimpsonsapi.com/api con
-   
-    	Query Parameters:
-   
-    		Page:{2}
-   
-   When realice la peticion GET a characters
-   Then el codigo de respuesta debe ser 200
-   And la respuesta debe contener los campos: count,next,prev,pages, y results
-   
-   
-   
-   
-   
+   - When realice la peticion GET a characters
+   - Then el codigo de respuesta debe ser 200
+   - And la respuesta debe tener los campos: count,next,prev,pages, y results
+     
    CP05 - El usuario recibe 1 error si parametro page = abc
    
-   Given la API esta disponible en https://thesimpsonsapi.com/api con
-   
-    	Query Parameters:
-   
-    		Page:abc
-   
-   When realice la peticion GET a /characters
-   Then el codigo de respuesta debe ser 400
+   - Given la API esta disponible en https://thesimpsonsapi.com/api
+   - When realice la peticion GET a /characters
+   - Then el codigo de respuesta debe ser 400
    
    
    
@@ -82,7 +53,7 @@ Historia de usuario: Exponer listado y detalle de personajes de The Simpsons con
    
    CP06 - El usuario recibe 1 error si parametro page = 0
    
-   Given la API esta disponible en https://thesimpsonsapi.com/api con
+   Given la API esta disponible en https://thesimpsonsapi.com/api 
    
     	Query Parameters:
    
@@ -134,7 +105,7 @@ Historia de usuario: Exponer listado y detalle de personajes de The Simpsons con
    
    CP10 - El usuario recibe informacion de 1 personaje por ID de manera satisfactoria
    
-   Given la API esta disponible en https://thesimpsonsapi.com/api con
+   Given la API esta disponible en https://thesimpsonsapi.com/api 
    &nbsp;	Path parameters:
    
    &nbsp;		id: {n}
@@ -148,7 +119,7 @@ Historia de usuario: Exponer listado y detalle de personajes de The Simpsons con
    
    CP11 - El usuario puede ver el id,age,birthdate,gender,name,occupation,portrait\_path,phrases,y status de 1 personaje
    
-   Given la API esta disponible en https://thesimpsonsapi.com/api con
+   Given la API esta disponible en https://thesimpsonsapi.com/api 
    
     	Path parameters:
    
@@ -173,7 +144,7 @@ Historia de usuario: Exponer listado y detalle de personajes de The Simpsons con
    When realice la peticion GET a /characters/:id
    
    Then el Código de respuesta debe ser 200
-   And la respuesta contiene el campo birthdate
+   And la respuesta tiene el campo birthdate
    And la respuesta contiene el campo birthdate con formato ^\\d{4}-\\d{2}-\\d{2}$.
    
    
@@ -182,7 +153,7 @@ Historia de usuario: Exponer listado y detalle de personajes de The Simpsons con
    
    CP13 - El usuario recibe la direccion de la imagen de 1 personaje elegido
    
-   Given la API esta disponible en https://thesimpsonsapi.com/api con
+   Given la API esta disponible en https://thesimpsonsapi.com/api 
    
     	Path parameters:
    
@@ -196,7 +167,7 @@ Historia de usuario: Exponer listado y detalle de personajes de The Simpsons con
    
    CP14 - El usuario recibe al menos 1 phrase por personaje (phrases is not null)
    
-   Given la API esta disponible en https://thesimpsonsapi.com/api con
+   Given la API esta disponible en https://thesimpsonsapi.com/api 
    
     	Path parameters:
    
