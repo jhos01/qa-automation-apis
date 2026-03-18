@@ -156,24 +156,25 @@ Historia de usuario: Exponer listado y detalle de personajes de The Simpsons con
    
    
 
-
+Postman
+Descargar la colección de Postman The Simpson API.postman_collection.json
+Abrir Postman e importar la colección del paso 1.
+Ejecutar los 9 request disponibles en la colección
 
 
   
-  - **Ejecución** (comandos o pasos)
+## 🚀 **Ejecución** (comandos o pasos)
 
-   Challenge 1:
-   
-   1. Descarga la coleccion de Postman Api Testing - jhos01 QAXPERT.postman_collection
-   2. Importar la coleccion en Postman
-   3. Ejecutar los requests
+- Postman
+ 1. Descargar la colección de Postman "Mission #1 The Simpson API.postman_collection.json"
+ 2. Abrir Postman e importar la colección del paso 1.
+ 3. Ejecutar los 9 request disponibles en la colección.
 
-   Challenge 2:
+- Project
+ 1. Clona o descarga el repositorio
+ 2. Abre 1 nueva terminal en la carpeta raiz
+ 3. Cambia al directorio del proyecto con el comando cd Stage_1/Mission
+ 4. Ejecuta el comando mvn test
 
-   1. Descargar el repositorio
-   2. Abre 1 nueva terminal en la carpeta raiz
-   3. Cambia al directorio del proyecto con el comando: cd Stage_1\Challenge\Challenge2
-   4. Tener 1 terminal abierta en el directorio anterior 
-   5. Ejecuta el comando "mvn test" para inicializar las pruebas
-   
-
+##🖼️ Evidencias:
+Stage_1/Mission/reports/surefire.html
