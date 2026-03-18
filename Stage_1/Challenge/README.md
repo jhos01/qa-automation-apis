@@ -59,8 +59,3 @@ Challenge 2:
    5. Ejecuta el comando "mvn test" para inicializar las pruebas
    
 
-  - **Resultados** (evidencias, logs, capturas, reporte HTML/JSON)
-  
-  
-  - 🖼️ Evidencias en `evidencias/` cuando aplique.
-
