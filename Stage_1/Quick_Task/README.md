@@ -7,7 +7,7 @@ Aplicar conceptos esenciales de Java y validar APIs mediante la ejecución de re
 - Coleccion correctamente importada en Postman
 - Peticiones ejecutadas satisfactoriamente
 
-##Instrucciones
+## Instrucciones
 1. Crea un archivo llamado MiFicha.java.
 2. Dentro, guarda tu información en variables:
     - Tu nombre (String)
@@ -19,7 +19,7 @@ Aplicar conceptos esenciales de Java y validar APIs mediante la ejecución de re
 5. Muestra cuántos hobbies hay en total con .size().
 6. Cambia el valor de la edad sumándole 1 (como si hubieras cumplido años) y vuelve a mostrarlo en pantalla.
 
-##Ejecucion (comandos o pasos):
+## Ejecucion (comandos o pasos):
 1. Clona o descarga el repositorio.
 2. Abre una nueva terminal en la carpeta raíz qax-automation-apis.
 3. Cambia al directorio del proyecto con el comando: cd Stage_1/Quick_Task
