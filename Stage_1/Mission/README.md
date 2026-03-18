@@ -2,7 +2,7 @@
 
 - 📁 Carpeta: `Stage_1/Mission`
 
-## Implementacion de pruebas automatizadas para consultar personajes de la API "Los Simpson"
+## Implementacion de pruebas automatizadas para consultar personajes de la API "Los Simpson" 
  - **Objetivo / Historia de usuario**
 
 En este proyecto se utlizo la API publica Notes API para generar casos de prueba de Gestion de Usuarios automatizados a traves de Rest Assured, Maven,y Cucumber para Java.
