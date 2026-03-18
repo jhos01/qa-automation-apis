@@ -153,16 +153,8 @@ Historia de usuario: Exponer listado y detalle de personajes de The Simpsons con
    - Then el Código de respuesta debe ser 200
    - And la respuesta contiene el campo name =  "Waylon Smithers, Jr."
    
-   
-   
-
-Postman
-Descargar la colección de Postman The Simpson API.postman_collection.json
-Abrir Postman e importar la colección del paso 1.
-Ejecutar los 9 request disponibles en la colección
-
-
-  
+    
+ 
 ## 🚀 **Ejecución** (comandos o pasos)
 
 - Postman
@@ -176,5 +168,5 @@ Ejecutar los 9 request disponibles en la colección
  3. Cambia al directorio del proyecto con el comando cd Stage_1/Mission
  4. Ejecuta el comando mvn test
 
-##🖼️ Evidencias:
+## 🖼️ Evidencias:
 Stage_1/Mission/reports/surefire.html
