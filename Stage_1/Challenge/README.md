@@ -4,11 +4,13 @@
 
 ## Implementacion de pruebas automatizadas para la Gestion de Usuarios de Notes API usando Rest Assured con Cucumber
  - **Objetivo / Historia de usuario**
+
 En este proyecto se utlizo la API publica Notes API para generar casos de prueba de Gestion de Usuarios automatizados a traves de Rest Assured, Maven,y Cucumber para Java.
  Challenge 1: poder registrar un usuario y hacer login
  Challenge 2:
 
   - **Criterios de aceptación**
+
 Challenge 1:
         Registro de usuario
             El usuario debe poder crear una cuenta exitosamente.
