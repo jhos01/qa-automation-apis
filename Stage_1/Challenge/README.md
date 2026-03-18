@@ -9,7 +9,7 @@ En este proyecto se utlizo la API publica Notes API para generar casos de prueba
  Challenge 1: poder registrar un usuario y hacer login
  Challenge 2:
 
-  - ✅ **Casos de Prueba**
+## ✅ **Casos de Prueba**
 
     
   
