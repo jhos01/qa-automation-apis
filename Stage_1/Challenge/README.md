@@ -27,7 +27,7 @@ Challenge 1:
 
 Challenge 2: 
 
-Registro de usuario
+    Registro de usuario
             El usuario debe poder crear una cuenta exitosamente.
             El sistema debe confirmar que la cuenta fue creada.
             Debe mostrarse un mensaje claro indicando éxito en el registro.
