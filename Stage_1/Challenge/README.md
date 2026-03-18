@@ -12,6 +12,7 @@ En este proyecto se utlizo la API publica Notes API para generar casos de prueba
   - **Criterios de aceptación**
 
 Challenge 1:
+
         Registro de usuario
             El usuario debe poder crear una cuenta exitosamente.
             El sistema debe confirmar que la cuenta fue creada.
@@ -25,6 +26,7 @@ Challenge 1:
             El sistema debe entregar un token o permiso de acceso para continuar usando la aplicación.
 
 Challenge 2: 
+
 Registro de usuario
             El usuario debe poder crear una cuenta exitosamente.
             El sistema debe confirmar que la cuenta fue creada.
@@ -33,6 +35,7 @@ Registro de usuario
             El sistema debe asignar un identificador único al nuevo usuario.
             Luego del registro, el usuario queda listo para iniciar sesión.
             Login de usuario
+            
             El usuario registrado debe poder iniciar sesión exitosamente.
             El sistema debe confirmar que el inicio de sesión fue exitoso.
             El usuario debe ver su información básica (nombre y correo).
