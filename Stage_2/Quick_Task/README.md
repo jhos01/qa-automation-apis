@@ -103,23 +103,6 @@ git commit -m "Add Quick Task: Java classes, POJO and feature file"
 git push origin main
 ```
 
-## Resultados
-
-### Evidencias esperadas
-
-* Captura de la estructura del proyecto.
-* Captura del contenido de `Animal.java`.
-* Captura del contenido de `Producto.java`.
-* Captura del contenido de `producto.feature`.
-* Enlace al repositorio o commit de GitHub.
-
-### Logs / reportes
-
-Para esta actividad no aplican reportes HTML/JSON ni logs automáticos, ya que no se requiere ejecución de pruebas. Como evidencia opcional, se puede incluir:
-
-* consola del IDE
-* historial de Git
-* capturas de pantalla de los archivos creados
 
 ## Archivos de soporte
 
@@ -183,19 +166,3 @@ Feature: Consultar producto
     When consulto el producto
     Then el nombre del producto debe ser "Laptop"
 ```
-
-## Nota de entrega
-
-Además de esta práctica, se debe:
-
-* reportar la actividad en el formulario correspondiente del programa
-* completar el quiz de 20 preguntas del Warm Up
-* compartir el resultado en el grupo de WhatsApp del programa de mentoría QAX
-
-## Buenas prácticas consideradas
-
-* Organización clara de carpetas y archivos.
-* Uso correcto de encapsulamiento en el POJO.
-* Sintaxis básica de Gherkin legible y consistente.
-* Documentación mínima en README para facilitar revisión.
-* Inclusión de evidencias para respaldar la entrega.
