@@ -25,20 +25,15 @@ para reforzar la sintaxis, la estructura de archivos y las buenas prácticas ini
 ```bash
 Stage_2/
 └── Quick_Task/
-    └── tu-entrega-aqui/
-        ├── README.md
+    └── RestAssuredWarmUp2/
         ├── src/
         │   └── main/
         │       └── java/
-        │           └── Animal.java
-        ├── tests/
-        │   └── Producto.java
-        ├── resources/
-        │   └── producto.feature
-        └── evidencias/
-            ├── captura-estructura.png
-            ├── captura-contenido-feature.png
-            └── notas-entrega.txt
+        │       │   └── Animal.java
+        │       │
+        │       └── test/
+        ├── Producto.feature.txt
+        ├── README/
 ```
 
 ## Estrategia de prueba
