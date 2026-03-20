@@ -42,12 +42,6 @@ Stage_2/
         └── README/
 ```
 
-## Estrategia de prueba
-
-### Alcance
-
-La práctica se enfoca en validar la correcta creación y estructura de archivos, sin necesidad de ejecución de pruebas automatizadas ni integración con frameworks.
-
 ### Casos a revisar
 
 1. Verificar que `Animal.java` exista y contenga:
