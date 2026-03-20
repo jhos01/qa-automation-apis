@@ -29,11 +29,17 @@ Stage_2/
         ├── src/
         │   └── main/
         │       └── java/
-        │       │   └── Animal.java
+        │       │   └── Main.java
         │       │
         │       └── test/
+        │       └── java/
+        │           └── Animal.java
+        │           └── FirstApiTest.java
+        │           └── Producto.java
+        │
+        │
         ├── Producto.feature.txt
-        ├── README/
+        └── README/
 ```
 
 ## Estrategia de prueba
