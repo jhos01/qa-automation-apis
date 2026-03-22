@@ -1,6 +1,5 @@
 
-# Mission #2 - Automatización de APIs con GitHub REST API (GET & POST)
-
+# Mission - Automatización de APIs
 Proyecto de automatización de pruebas API enfocado en la **GitHub REST API**, utilizando **Java**, **Rest Assured**, **Cucumber** y **Maven**.
 
 ## Objetivo
