@@ -2,6 +2,7 @@
 
 ## Seccion 1
 Objetivo/ Historia de Usuario
+Gestion de Publicaciones y Comentarios
 
 📁 Carpeta: Stage_2/Challenge/tu-entrega-aqui
 
