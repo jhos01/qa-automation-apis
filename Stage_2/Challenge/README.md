@@ -1,7 +1,7 @@
 # Challenge 1 & 2 - Automatizacion de pruebas API con serializacion y desearializacion de los requests
 
 El Challenge 1 & 2 consisten en 1 proyecto de automatizacion de pruebas API usando Rest Assured, Java, Cucumber y Maven. 
-## Seccion 1
+## Seccion 1 
 Objetivo/ Historia de Usuario
 
 Gestion de Publicaciones y Comentarios: En este proyecto quiero poder listar usuarios para validar que la API [JSON Placeholder](https://jsonplaceholder.typicode.com) funcione correctamente y que los datos sean consistentes.
@@ -51,14 +51,15 @@ Scenario: CP02 El usuario consulta los comentarios de un post
 3. Cambia al directorio del proyecto con el comando: cd Stage_2/Challenge
 4. Ejecuta el siguiente comando: "mvn test"
 
-## Seccion 2 Automatizacion de la API Book Store
+## Seccion 2: Automatizacion de la API Book Store
 
 Objetivo/ Historia de Usuario
 
 Registro y acceso seguro a la Book Store API
 En este proyecto como usuario/automatizador de pruebas, quiero poder registrar un usuario, obtener un token de autenticación y consumir endpoints protegidos con ese token, para verificar que la API BookStore [BookStore](https://demoqa.com/swagger/) maneja correctamente el alta de usuarios, la emisión de tokens y el acceso autorizado a información sensible.
 
-BaseUrl:https://demoqa.com
+BaseUrl: https://demoqa.com
+
 ### Flujo del usuario para agregar un libro
 - POST /Account/v1/User → crear usuario con userName y password.
 - POST /Account/v1/GenerateToken → obtener token JWT con userName y password.
