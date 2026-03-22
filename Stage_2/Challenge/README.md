@@ -17,8 +17,8 @@ Listar usuarios:
 - GET /users debe devolver HTTP 200.
 - La lista no debe estar vacía y cada usuario debe tener id, name, username y email.
 
+## 🧪 Casos de Prueba 
 Archivo .feature
-
 ```
 Feature: Gestión de comentarios en la aplicación
 
@@ -44,7 +44,12 @@ Scenario: CP02 El usuario consulta los comentarios de un post
 
 ```
 
-## 🧪 Casos de Prueba 
 
 ## Ejecución 
+1. Clona o descarga el repositorio https://github.com/jhos01/qax-automation-apis.git
+2. Abre una nueva terminal en la carpeta raíz qax-automation-apis.
+3. Cambia al directorio del proyecto con el comando: cd Stage_2/Challenge
+4. Ejecuta el siguiente comando mvn test
+
+
  
