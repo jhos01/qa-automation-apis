@@ -5,7 +5,9 @@ Objetivo/ Historia de Usuario
 Gestion de Publicaciones y Comentarios
 
 📁 Carpeta: Stage_2/Challenge/tu-entrega-aqui
-Criterios de aceptación
+
+## Criterios de aceptación
+
 BaseUrl: https://jsonplaceholder.typicode.com"
 
 Listar usuarios:
