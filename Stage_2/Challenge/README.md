@@ -1,10 +1,10 @@
 # Challenge 1 & 2 - Automatizacion de pruebas API con serializacion y desearializacion de los requests
+
 El Challenge 1 & 2 consisten en 1 proyecto de automatizacion de pruebas API usando Rest Assured, Java, Cucumber y Maven. El proyecto comprende la creacion de pruebas de obtencion de usuarios y validacion de la informacion devuelta 
+
 ## Seccion 1
 Objetivo/ Historia de Usuario
-Gestion de Publicaciones y Comentarios: Quiero poder listar usuarios Para validar que la API funcione correctamente y que los datos sean consistentes.
-
-
+Gestion de Publicaciones y Comentarios: En este proyecto quiero poder listar usuarios para validar que la API funcione correctamente y que los datos sean consistentes.
 
 📁 Carpeta: Stage_2/Challenge
 
@@ -49,7 +49,18 @@ Scenario: CP02 El usuario consulta los comentarios de un post
 1. Clona o descarga el repositorio https://github.com/jhos01/qax-automation-apis.git
 2. Abre una nueva terminal en la carpeta raíz qax-automation-apis.
 3. Cambia al directorio del proyecto con el comando: cd Stage_2/Challenge
-4. Ejecuta el siguiente comando mvn test
+4. Ejecuta el siguiente comando: "mvn test"
+
+## Seccion 2 Automatizacion de la API Book Store
+Objetivo/ Historia de Usuario
+En este proyecto como usuario/automatizador de pruebas, quiero poder registrar un usuario, obtener un token de autenticación y consumir endpoints protegidos con ese token, para verificar que la API BookStore [BookStore](https://demoqa.com/swagger/) maneja correctamente el alta de usuarios, la emisión de tokens y el acceso autorizado a información sensible.
+
+
+
+📁 Carpeta: Stage_2/Challenge
+
+## Criterios de aceptación
+
 
 
  
