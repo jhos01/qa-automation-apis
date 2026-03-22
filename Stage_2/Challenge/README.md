@@ -42,9 +42,7 @@ Scenario: CP02 El usuario consulta los comentarios de un post
 
 ```
 
+## 🧪 Casos de Prueba 
 
-Estrategia de prueba (casos, datos, precondiciones)
-Ejecución (comandos o pasos)
-Resultados (evidencias, logs, capturas, reporte HTML/JSON)
-🧪 Código/archivos de soporte en subcarpetas (src, tests, resources, etc.) según la tecnología.
-🖼️ Evidencias en evidencias/ cuando aplique.
+## Ejecución 
+ 
