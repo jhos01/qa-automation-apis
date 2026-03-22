@@ -1,10 +1,13 @@
-# Challenge 1 & 2 - Automatizacion de 1 proyecto de gestion de 
+# Challenge 1 & 2 - Automatizacion de pruebas API con serializacion y desearializacion de los requests
+El Challenge 1 & 2 consisten en 1 proyecto de automatizacion de pruebas API usando Rest Assured, Java, Cucumber y Maven. El proyecto comprende la creacion de pruebas de obtencion de usuarios y validar que la API JSON/Placeholder funcione correctamente 
 
 ## Seccion 1
 Objetivo/ Historia de Usuario
-Gestion de Publicaciones y Comentarios
+Gestion de Publicaciones y Comentarios: Quiero poder listar usuarios Para validar que la API funcione correctamente y que los datos sean consistentes.
 
-📁 Carpeta: Stage_2/Challenge/tu-entrega-aqui
+
+
+📁 Carpeta: Stage_2/Challenge
 
 ## Criterios de aceptación
 
