@@ -10,8 +10,8 @@ BaseUrl: https://jsonplaceholder.typicode.com"
 
 Listar usuarios:
 
-GET /users debe devolver HTTP 200.
-La lista no debe estar vacía y cada usuario debe tener id, name, username y email.
+- GET /users debe devolver HTTP 200.
+- La lista no debe estar vacía y cada usuario debe tener id, name, username y email.
 
 Archivo .feature
 
